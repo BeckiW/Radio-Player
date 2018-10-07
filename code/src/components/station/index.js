@@ -68,9 +68,10 @@ class StationList extends React.Component {
         </div>
       )
     } else {
+
       return (
         <div>
-          <img src={loadingImage} />
+          <img className = "loadingImage" alt="Loading..." src={loadingImage} />
         </div>
       )
     }
