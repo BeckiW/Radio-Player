@@ -1,0 +1,21 @@
+
+.station-list {
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 700px;
+}
+
+.filter-bar {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+#station-filter {
+  border: 1px solid #666666;
+  border-radius: 5px;
+  margin-right: 0px;
+  margin-left: 30x;
+  padding: 5px 4px 5px 4px;
+  font-size: 12pt;
+  width: 200px;
+}

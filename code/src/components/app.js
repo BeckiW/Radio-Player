@@ -1,5 +1,5 @@
 import React from 'react';
-import Stations from "./station";
+import StationList from "./station";
 import Station from "./channels"
 
 
@@ -7,8 +7,11 @@ import Station from "./channels"
   class App extends React.Component {
     render() {
       return (
-        <div className="App">
-          <Stations />
+        <div className="app">
+          <header>
+            <h1>Sverige Radio Stations</h1>
+          </header>
+          <StationList />
         </div>
       );
     }
