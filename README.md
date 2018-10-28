@@ -1,4 +1,4 @@
-# Sprint 3 – Sveriges Radio Player :radio:
+# Sveriges Radio Player :radio:
 
 A radio player that uses the Sveriges Radio API to fetch information about the radio channels and fetch playable audio stream urls to create a working radio player.
 
