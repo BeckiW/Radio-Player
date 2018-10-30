@@ -44,8 +44,8 @@ class StationList extends React.Component {
           return true
         }else {
           return false}
-      }
-    );
+      })
+
     } else {
       stationsToShow = this.state.radios;
     }
@@ -67,6 +67,7 @@ class StationList extends React.Component {
           </section>
         </div>
       )
+
     } else {
 
       return (

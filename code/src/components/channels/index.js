@@ -27,6 +27,7 @@ class Station extends React.Component {
 
   render() {
     return (
+
       <div>
         {this.state.channels
           .map(item =>
